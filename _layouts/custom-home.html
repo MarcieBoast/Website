@@ -23,13 +23,13 @@ layout: custom-home
 <header class="site-header">
   <div class="wrapper">
     <!-- Keep Minima's Site Title -->
-    <a class="site-title" rel="author" href="/">Marcie Boast</a>
+    <a class="site-title" rel="author" href="/website">Marcie Boast</a>
     <!-- Custom Tabbed Navigation Interface -->
         </nav>
  <nav class="site-nav" aria-label="Main navigation">
       <ul class="nav-tabs"><li>
               <a class="tab-link" 
-                 href="/Portfolio/"
+                 href="{{ site.baseurl }}/Portfolio/"
                  >
                 Portfolio
               </a>
@@ -38,7 +38,7 @@ layout: custom-home
 <nav class="site-nav" aria-label="Main navigation">
       <ul class="nav-tabs"><li>
               <a class="tab-link" 
-                 href="/about/"
+                 href="{{ site.baseurl }}/about/"
                  >
                 About Marcie
               </a>
@@ -51,7 +51,7 @@ layout: custom-home
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
         <div class="home">
-          <a class="post-link" href="/jekyll/update/2026/10/24/welcome-to-jekyll.html">
+          <a class="post-link" href="{{ site.baseurl }}/jekyll/update/2026/10/24/welcome-to-jekyll.html">
             Welcome to Jekyll!
           </a>
         </h3></li></ul>
@@ -91,7 +91,7 @@ layout: custom-home
 </head>
 <body>
 
-  <audio id="bgAudio" src="/assets/virtual.mp3" loop autoplay muted></audio>
+  <audio id="bgAudio" src="{{ site.baseurl }}/assets/virtual.mp3" loop autoplay muted></audio>
 
   <!-- Control Button Overlay -->
   <div class="audio-control">
