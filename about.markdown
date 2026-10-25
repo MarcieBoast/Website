@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: custom-home
 title: About Marcie
 permalink: /about/
 ---
